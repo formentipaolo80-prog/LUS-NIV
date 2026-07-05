@@ -1,0 +1,51 @@
+APP NIV MOBILE/TABLET v37 - SOLUZIONE DEFINITIVA
+
+NON USARE L'UPLOAD DAL BROWSER PER I VIDEO.
+Il browser GitHub può saltare cartelle, bloccare file o non caricare i video.
+Usare GitHub Desktop.
+
+PASSAGGI:
+1. Installa GitHub Desktop.
+2. Accedi con lo stesso account GitHub.
+3. Apri GitHub Desktop.
+4. File -> Clone repository.
+5. Scegli: formentipaolo80-prog/LUS-NIV
+6. Scegli una cartella locale, per esempio Desktop/LUS-NIV.
+7. Clicca Clone.
+8. Estrai questo zip.
+9. Copia TUTTO il contenuto estratto dentro la cartella locale LUS-NIV.
+   Devono esserci:
+   index.html
+   manifest.webmanifest
+   service-worker.js
+   icon-192.png
+   icon-512.png
+   videos/
+   figure_scaricabili/
+   images_app/
+10. Torna su GitHub Desktop.
+11. In basso scrivi Summary: app mobile v37
+12. Clicca Commit to main.
+13. Clicca Push origin.
+
+DOPO:
+Settings -> Pages
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+Save
+
+LINK:
+https://formentipaolo80-prog.github.io/LUS-NIV/
+
+INSTALLAZIONE SUL TELEFONO:
+Android/Chrome:
+apri il link -> menu ⋮ -> Installa app oppure Aggiungi a schermata Home.
+
+iPhone/Safari:
+apri il link -> Condividi -> Aggiungi alla schermata Home.
+
+NOTA:
+Questa versione non include il Word pesante. Il manuale è già dentro la app.
+Le immagini del testo sono visibili e scaricabili singolarmente.
+I video sono in videos/ e funzionano se la cartella viene caricata con GitHub Desktop.
