@@ -1,8 +1,8 @@
 {
-  "name": "AdET NIV - Manuale ecoguidato",
-  "short_name": "AdET NIV",
-  "description": "App portatile per NIV ecoguidata: manuale, video, immagini, EGA, asincronie e calcolatori.",
-  "start_url": "./index.html",
+  "name": "NIV EcoGuidata - Manuale AdET",
+  "short_name": "NIV EcoGuidata",
+  "description": "Manuale pratico AdET per ventilazione non invasiva ecoguidata.",
+  "start_url": "./index.html?app=NIV-EcoGuidata",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",

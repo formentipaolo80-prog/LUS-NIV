@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AdET NIV</title>
+<title>NIV EcoGuidata</title>
 <style>
 :root{--bg:#f1f5f9;--card:#fff;--ink:#0f172a;--muted:#64748b;--line:#e2e8f0;--dark:#0f172a}
 *{box-sizing:border-box} body{margin:0;font-family:Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--ink)}
@@ -638,7 +638,7 @@ pre{background:radial-gradient(circle at top right,rgba(56,189,248,.15),transpar
 <meta name="theme-color" content="#073B73">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="AdET NIV">
+<meta name="apple-mobile-web-app-title" content="NIV EcoGuidata">
 <link rel="apple-touch-icon" href="icon-192.png">
 <script>
 (function(){
@@ -649,6 +649,8 @@ pre{background:radial-gradient(circle at top right,rgba(56,189,248,.15),transpar
   }
 })();
 </script>
+<meta name="application-name" content="NIV EcoGuidata">
+<meta property="og:site_name" content="NIV EcoGuidata">
 </head>
 <body>
 <header>
@@ -1139,7 +1141,7 @@ function copyText(text){
 function printText(title,text){
   const w = window.open('', '_blank');
   if(!w) return;
-  w.document.write('<html><head><title>AdET NIV</title><style>body{font-family:Arial;margin:28px;line-height:1.5}pre{white-space:pre-wrap;font-family:Arial;border:1px solid #ddd;padding:16px;border-radius:12px}</style></head><body><button onclick="print()">Stampa / salva PDF</button><h1>' + escapeHtml(title) + '</h1><pre>' + escapeHtml(text) + '</pre></body></html>');
+  w.document.write('<html><head><title>NIV EcoGuidata</title><style>body{font-family:Arial;margin:28px;line-height:1.5}pre{white-space:pre-wrap;font-family:Arial;border:1px solid #ddd;padding:16px;border-radius:12px}</style></head><body><button onclick="print()">Stampa / salva PDF</button><h1>' + escapeHtml(title) + '</h1><pre>' + escapeHtml(text) + '</pre></body></html>');
   w.document.close();
 }
 
