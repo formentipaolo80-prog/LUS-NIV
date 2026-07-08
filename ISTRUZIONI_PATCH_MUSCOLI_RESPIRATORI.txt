@@ -1,0 +1,57 @@
+PATCH APP - MUSCOLI RESPIRATORI
+
+Questa NON è una nuova versione della app.
+Serve solo a sostituire la terminologia "pompa" / "pompa respiratoria" nei testi della app.
+
+Sostituisci nel repository solo questi due file:
+- index.html
+- service-worker.js
+
+NON toccare:
+- videos/
+- figure_scaricabili/
+- images_app/
+- .nojekyll
+- manifest.webmanifest
+- icone
+
+PASSAGGI:
+1. Estrai questo zip.
+2. Apri GitHub Desktop.
+3. Clicca Show in Explorer.
+4. Copia index.html e service-worker.js nella cartella LUS NIV.
+5. Quando Windows chiede, scegli Sostituisci.
+6. Torna su GitHub Desktop.
+7. Summary: cambio pompa in muscoli respiratori
+8. Commit to main
+9. Push origin
+
+DOPO IL PUSH:
+Apri:
+https://formentipaolo80-prog.github.io/LUS-NIV/?termini=muscoli
+
+Se vedi ancora il vecchio testo:
+- CTRL + F5 sul PC
+- oppure dal telefono elimina l'icona vecchia e aggiungila di nuovo.
+
+CONTROLLI AUTOMATICI SULL'INDEX:
+Prima:
+{
+  "pompa_ci": 141,
+  "pompa_respiratoria_ci": 94,
+  "pompa_inspiratoria_ci": 1,
+  "pompa_espiratoria_ci": 3
+}
+
+Dopo:
+{
+  "pompa_ci": 0,
+  "pompa_respiratoria_ci": 0,
+  "pompa_inspiratoria_ci": 0,
+  "pompa_espiratoria_ci": 0,
+  "muscoli_respiratori_ci": 157,
+  "muscolo_respiratorio_ci": 6
+}
+
+Nota: questa patch cambia testo, titoli, tag, caption e dati della app.
+Le scritte eventualmente incorporate dentro immagini PNG non sono testo HTML: se comparissero ancora dentro una figura, va rifatta quella figura.
