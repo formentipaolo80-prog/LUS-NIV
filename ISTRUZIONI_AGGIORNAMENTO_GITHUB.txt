@@ -1,0 +1,36 @@
+PATCH GITHUB - LUS-NIV AGOSTO 2026
+
+Questa patch aggiorna la app già pubblicata su GitHub Pages, senza cambiare il link.
+
+Sostituisci nel repository LUS-NIV:
+- index.html
+- service-worker.js
+- la cartella figure_scaricabili/ completa
+
+NON toccare:
+- videos/
+- images_app/
+- .nojekyll
+- manifest.webmanifest
+- icon-192.png
+- icon-512.png
+
+PASSAGGI CON GITHUB DESKTOP:
+1. Estrai questo zip.
+2. Apri GitHub Desktop.
+3. Seleziona repository LUS-NIV.
+4. Clicca Show in Explorer.
+5. Copia dentro la cartella del repository index.html, service-worker.js e figure_scaricabili.
+6. Quando Windows chiede, scegli Sostituisci.
+7. Torna su GitHub Desktop.
+8. Summary: aggiornamento manuale agosto 2026
+9. Commit to main.
+10. Push origin.
+
+IL LINK RESTA IDENTICO:
+https://formentipaolo80-prog.github.io/LUS-NIV/
+
+Dopo il push apri:
+https://formentipaolo80-prog.github.io/LUS-NIV/?agosto=2026
+
+Se vedi ancora la versione vecchia: CTRL+F5 sul PC oppure elimina/reinstalla l'icona sul telefono.

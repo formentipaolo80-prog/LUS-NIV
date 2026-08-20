@@ -1,4 +1,4 @@
-const CACHE_NAME = 'niv-ecoguidata-muscoli-respiratori-v1';
+const CACHE_NAME = 'niv-ecoguidata-agosto-2026-v1';
 const APP_SHELL = [
   './',
   './index.html',
